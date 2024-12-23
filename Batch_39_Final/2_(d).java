@@ -1,10 +1,10 @@
 package Batch_39_Final;
 
-// public class InvalidVoterException extends Exception {
-//     public InvalidVoterException(String message) {
-//         super(message);
-//     }
-// }
+public class InvalidVoterException extends Exception {
+    public InvalidVoterException(String message) {
+        super(message);
+    }
+}
 
 public class TestCustomException {
     public void validateAge(int age) throws InvalidVoterException {
