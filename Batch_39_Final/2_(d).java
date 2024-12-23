@@ -1,10 +1,10 @@
 package Batch_39_Final;
 
-public class InvalidVoterException extends Exception {
-    public InvalidVoterException(String message) {
-        super(message);
-    }
-}
+// public class InvalidVoterException extends Exception {
+//     public InvalidVoterException(String message) {
+//         super(message);
+//     }
+// }
 
 public class TestCustomException {
     public void validateAge(int age) throws InvalidVoterException {
@@ -19,7 +19,6 @@ public class TestCustomException {
         TestCustomException test = new TestCustomException();
 
         try {
-            test.validateAge(20);
             test.validateAge(16);
         } catch (InvalidVoterException e) {
             System.out.println("Found the exception");
